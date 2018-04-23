@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Github issue point extension",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "css": ["mystyles.css"],
+      "js": ["jquery.min.js", "myscript.js"]
+    }
+  ]
+}
